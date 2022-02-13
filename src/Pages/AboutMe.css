@@ -1,0 +1,37 @@
+.container1{
+    width: 100%;
+}
+
+.container2{
+    max-width: 1300px;
+    margin: auto;
+    
+
+}
+.container2 > div {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px ;
+
+}
+.container2 img {
+    margin: 0px 50px;
+    border-radius: 20px;
+}
+
+ @media (max-width:740px){
+     .container2 > div {
+         display: flex;
+         flex-wrap: wrap;
+     }
+     .container2 .item {
+         flex-wrap: wrap-reverse;
+     }
+     .container2 img {
+         margin: auto;
+         margin-bottom: 20px;
+         
+         
+     }
+
+}
